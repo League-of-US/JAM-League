@@ -1,9 +1,19 @@
 {
   "nameCache:9": {
     "0:10": {
+      "name:8": "theetails",
+      "isOP:1": 0,
+      "uuid:8": "33699e40-708a-476d-813d-040033097d2f"
+    },
+    "1:10": {
       "name:8": "GHProphet",
       "isOP:1": 0,
       "uuid:8": "8259f658-24bb-4e6f-9ea5-ef220fe5e2af"
+    },
+    "2:10": {
+      "name:8": "CaptCrit",
+      "isOP:1": 0,
+      "uuid:8": "b6b3f763-4fd3-468c-a3cb-24558ea8e715"
     }
   }
 }

@@ -1,42 +1,297 @@
-[18:52:07] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[18:52:07] [Server thread/INFO]: Loading properties
-[18:52:07] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_251]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_251]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_251]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_251]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_251]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_251]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_251]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_251]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_251]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_251]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_251]
-	at nz$2.run(SourceFile:100) [minecraft_server.1.12.2.jar:?]
-[18:52:07] [Server thread/INFO]: Default game type: SURVIVAL
-[18:52:07] [Server thread/INFO]: Generating keypair
-[18:52:07] [Server thread/INFO]: Starting Minecraft server on 192.168.1.3:25565
-[18:52:07] [Server thread/INFO]: Using default channel type
-[18:52:08] [Server thread/INFO]: Preparing level "Forge Ahead"
-[18:52:09] [Server thread/INFO]: Loaded 488 advancements
-[18:52:09] [Server thread/INFO]: Preparing start region for level 0
-[18:52:10] [Server thread/INFO]: Preparing spawn area: 14%
-[18:52:11] [Server thread/INFO]: Preparing spawn area: 64%
-[18:52:11] [Server thread/INFO]: Done (3.177s)! For help, type "help" or "?"
-[18:52:27] [User Authenticator #1/INFO]: UUID of player GHProphet is 8259f658-24bb-4e6f-9ea5-ef220fe5e2af
-[18:52:27] [Server thread/INFO]: GHProphet[/192.168.1.3:58244] logged in with entity id 347 at (229.76461802272703, 67.0, 260.53050506124305)
-[18:52:27] [Server thread/INFO]: GHProphet joined the game
-[18:52:39] [Server thread/INFO]: GHProphet lost connection: Disconnected
-[18:52:39] [Server thread/INFO]: GHProphet left the game
-[18:52:44] [Server thread/INFO]: Stopping the server
-[18:52:44] [Server thread/INFO]: Stopping server
-[18:52:44] [Server thread/INFO]: Saving players
-[18:52:44] [Server thread/INFO]: Saving worlds
-[18:52:44] [Server thread/INFO]: Saving chunks for level 'Forge Ahead'/overworld
-[18:52:45] [Server thread/INFO]: Saving chunks for level 'Forge Ahead'/the_nether
-[18:52:45] [Server thread/INFO]: Saving chunks for level 'Forge Ahead'/the_end
-[18:52:45] [Server Shutdown Thread/INFO]: Stopping server
-[18:52:45] [Server Shutdown Thread/INFO]: Saving players
-[18:52:45] [Server Shutdown Thread/INFO]: Saving worlds
-[18:52:45] [Server Shutdown Thread/INFO]: Saving chunks for level 'Forge Ahead'/overworld
+[16:13:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:13:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:13:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:13:11] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[16:13:11] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_251
+[16:13:11] [main/INFO] [FML]: Searching C:\Users\GHProphet\Desktop\Forge Server\.\mods for mods
+[16:13:11] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31 (1).jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:13:11] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:13:11] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[16:13:11] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in cxlibrary-1.12.1-1.6.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:13:11] [main/WARN] [FML]: The coremod cubex2.cxlibrary.CoreModLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:13:11] [main/WARN] [FML]: The coremod CXLibraryCore (cubex2.cxlibrary.CoreModLoader) is not signed!
+[16:13:11] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.64+dev.146.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:13:11] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:13:11] [main/WARN] [FML]: The coremod blusunrize.immersiveengineering.common.asm.IELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:13:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:13:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:13:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:13:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:13:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:14] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:13:15] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:13:15] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[16:13:15] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[16:13:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[16:13:20] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[16:13:20] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[16:13:20] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[16:13:21] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[16:13:22] [Server thread/INFO] [FML]: Searching C:\Users\GHProphet\Desktop\Forge Server\.\mods for mods
+[16:13:23] [Server thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[16:13:24] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
+[16:13:25] [Server thread/WARN] [FML]: Mod patchouli is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0-20
+[16:13:27] [Server thread/INFO] [FML]: Forge Mod Loader has identified 33 mods to load
+[16:13:27] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[16:13:27] [Server thread/WARN] [FML]: Missing English translation for chameleon: assets/chameleon/lang/en_us.lang
+[16:13:27] [Server thread/WARN] [FML]: Missing English translation for codechickenlib: assets/codechickenlib/lang/en_us.lang
+[16:13:27] [Server thread/WARN] [FML]: Missing English translation for cxlibrary: assets/cxlibrary/lang/en_us.lang
+[16:13:27] [Server thread/WARN] [FML]: Missing English translation for dldungeonsjbg: assets/dldungeonsjbg/lang/en_us.lang
+[16:13:27] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[16:13:28] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.2.31 (1).jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[16:13:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aether_legacy, baubles, betterquesting, biomesoplenty, bookshelf, chameleon, chisel, codechickenlib, cxlibrary, dldungeonsjbg, waila, inventorytweaks, jei, journeymap, lootbags, mantle, morefurnaces, nei, oreexcavation, parry, patchouli, bq_standard, storagedrawers, tconstruct, thaumcraft, tinkertoolleveling, twilightforest, wawla, immersiveengineering] at CLIENT
+[16:13:29] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, aether_legacy, baubles, betterquesting, biomesoplenty, bookshelf, chameleon, chisel, codechickenlib, cxlibrary, dldungeonsjbg, waila, inventorytweaks, jei, journeymap, lootbags, mantle, morefurnaces, nei, oreexcavation, parry, patchouli, bq_standard, storagedrawers, tconstruct, thaumcraft, tinkertoolleveling, twilightforest, wawla, immersiveengineering] at SERVER
+[16:13:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[16:13:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[16:13:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[16:13:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse quarkIntegration; missing dependency: quark
+[16:13:35] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[16:13:38] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[16:13:38] [Server thread/INFO] [FML]: Found 1549 ObjectHolder annotations
+[16:13:38] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[16:13:38] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[16:13:39] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[16:13:39] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[16:13:40] [Forge Version Check/INFO] [forge.VersionCheck]: [nei] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=NotEnoughItems
+[16:13:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16:13:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[16:13:41] [Forge Version Check/INFO] [forge.VersionCheck]: [aether_legacy] Starting version check at https://raw.githubusercontent.com/Modding-Legacy/Aether-Legacy/master/aether-legacy-changelog.json
+[16:13:43] [Forge Version Check/INFO] [forge.VersionCheck]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/master/changelog.json
+[16:13:43] [Forge Version Check/INFO] [forge.VersionCheck]: [immersiveengineering] Found status: UP_TO_DATE Target: null
+[16:13:43] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[16:13:43] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
+[16:13:48] [Server thread/INFO] [FML]: Applying holder lookups
+[16:13:48] [Server thread/INFO] [FML]: Holder lookups applied
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Doomlike Dungeons is in preInit, should now load config.
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: themesdir is C:\Users\GHProphet\Desktop\Forge Server\config\DLDungeonsJBG
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Frequency Scaling Factor Set To: 8
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Minimum X Factor Set To: 16
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Difficulty set to: Normal difficulty.
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will spawn dungeons in with world generation? true
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will spawn dungeons even with structures disabled? false
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will export item, block, and mob lists? false
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will announce use of OP/cheat commands? true
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will dungeons be easy to find? true
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will dungeon all have single entrances? true
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will themes be automatically install if themes folder is empty? true
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Can themes be (re)installed by command? true
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: adding END to excusion list
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will use API? true
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will allow API base mob change? true
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Will self-profile? false
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: themesdir will be set to C:\Users\GHProphet\Desktop\Forge Server\config\DLDungeonsJBG\themes\
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: themesdir File is be set to C:\Users\GHProphet\Desktop\Forge Server\config\DLDungeonsJBG\themes
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: themesdir is C:\Users\GHProphet\Desktop\Forge Server\config\DLDungeonsJBG\themes
+[16:13:48] [Server thread/INFO] [STDOUT]: [jaredbgreat.dldungeons.setup.Externalizer:makeChestCfg:206]: [DLDUNGEONS] Installing files C:\Users\GHProphet\Desktop\Forge Server\config\DLDungeonsJBG\chests.cfg
+[16:13:48] [Server thread/INFO] [DLDUNGEONS]: Config should now be loaded.
+[16:13:48] [Server thread/INFO] [lootbags]: Your current LootBags version is: 2.5.8.5; Your current LootBags Config Version is: CONFIGVER257
+[16:13:50] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Baubles.
+[16:13:50] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Chisel.
+[16:13:50] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
+[16:13:50] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Immersive Engineering.
+[16:13:50] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Just Enough Items.
+[16:13:50] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Tinkers' Construct.
+[16:13:50] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Thaumcraft.
+[16:13:54] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering]: Attempting to download special revolvers from GitHub
+[16:13:54] [Server thread/INFO] [Chisel]: Loading blocks...
+[16:13:55] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[16:13:55] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[16:13:56] [Server thread/INFO] [Chisel]: 73 Feature's blocks loaded.
+[16:13:56] [Server thread/INFO] [Chisel]: Loading Tile Entities...
+[16:13:56] [Server thread/INFO] [Chisel]: Tile Entities loaded.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:13:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:00] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:00] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:00] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:00] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:00] [Server thread/INFO] [FML]: Applying holder lookups
+[16:14:00] [Server thread/INFO] [FML]: Holder lookups applied
+[16:14:00] [Server thread/INFO] [Chisel]: Loading items...
+[16:14:00] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[16:14:00] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[16:14:00] [Server thread/INFO] [Chisel]: 73 Feature's items loaded.
+[16:14:03] [Server thread/INFO] [FML]: Applying holder lookups
+[16:14:03] [Server thread/INFO] [FML]: Holder lookups applied
+[16:14:05] [Server thread/INFO] [FML]: Applying holder lookups
+[16:14:05] [Server thread/INFO] [FML]: Holder lookups applied
+[16:14:05] [Server thread/INFO] [FML]: Applying holder lookups
+[16:14:05] [Server thread/INFO] [FML]: Holder lookups applied
+[16:14:05] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:14:05] [Server thread/INFO] [FML]: Itemstack injection complete
+[16:14:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[16:14:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[16:14:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[16:14:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on 192.168.1.14:25565
+[16:14:05] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[16:14:08] [Server thread/INFO] [Chisel]: Loading recipes...
+[16:14:08] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[16:14:08] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[16:14:08] [Server thread/INFO] [Chisel]: 73 Feature's recipes loaded.
+[16:14:08] [Server thread/INFO] [THAUMCRAFT]: Checking for mod & oredict compatibilities
+[16:14:08] [Server thread/INFO] [THAUMCRAFT]: Adding entities to MFR safari net blacklist.
+[16:14:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:09] [Server thread/INFO] [FML]: Applying holder lookups
+[16:14:09] [Server thread/INFO] [FML]: Holder lookups applied
+[16:14:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 iron furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 gold furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 diamond furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 obsidian furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 netherrack furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 copper furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 silver furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[16:14:09] [Server thread/INFO] [chameleon]: Could not load integration module: com.jaquadro.minecraft.storagedrawers.integration.Thaumcraft
+[16:14:10] [Thread-7/INFO] [immersiveengineering]: Arc Recycling: Removed 0 old recipes
+[16:14:11] [Thread-7/INFO] [immersiveengineering]: Finished recipe profiler for Arc Recycling, took 41 milliseconds
+[16:14:12] [Server thread/INFO] [Chisel]: Received 9 IMC messages from mod immersiveengineering.
+[16:14:12] [Server thread/INFO] [Chisel]: Received 52 IMC messages from mod twilightforest.
+[16:14:12] [Server thread/INFO] [Chisel]: Received 22 IMC messages from mod tconstruct.
+[16:14:12] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:14:12] [Server thread/INFO] [FML]: Itemstack injection complete
+[16:14:12] [Server thread/INFO] [DLDUNGEONS]: Loading custom NBT tags (nbt.cfg)
+[16:14:12] [Server thread/INFO] [DLDUNGEONS]: Loading chest loot file (chests.cfg)
+[16:14:12] [Server thread/INFO] [DLDUNGEONS]: Found 1 special chest configs.
+[16:14:12] [Server thread/INFO] [DLDUNGEONS]: Loading chest loot file (oceanic_chests.cfg)
+[16:14:12] [Server thread/INFO] [DLDUNGEONS]: Found 6 block family configs.
+[16:14:12] [Server thread/INFO] [DLDUNGEONS]: Found 12 themes.
+[16:14:16] [Server thread/INFO] [THAUMCRAFT]: Loaded 22 research entries from thaumcraft:research/alchemy
+[16:14:16] [Server thread/INFO] [THAUMCRAFT]: Loaded 5 research entries from thaumcraft:research/eldritch
+[16:14:16] [Server thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/basics
+[16:14:16] [Server thread/INFO] [THAUMCRAFT]: Loaded 23 research entries from thaumcraft:research/auromancy
+[16:14:16] [Server thread/INFO] [THAUMCRAFT]: Loaded 12 research entries from thaumcraft:research/scans
+[16:14:16] [Server thread/INFO] [THAUMCRAFT]: Loaded 20 research entries from thaumcraft:research/artifice
+[16:14:16] [Server thread/INFO] [THAUMCRAFT]: Loaded 17 research entries from thaumcraft:research/infusion
+[16:14:16] [Server thread/INFO] [THAUMCRAFT]: Loaded 29 research entries from thaumcraft:research/golemancy
+[16:14:16] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
+[16:14:18] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 2342.091 ms
+[16:14:19] [Server thread/INFO] [immersiveengineering]: Couldn't fully analyze 1xtile.immersiveengineering.metal_device1@10, missing knowledge for {1xtile.immersiveengineering.metal_device0@4=1.0}
+[16:14:19] [Server thread/INFO] [Waila]: Starting Waila...
+[16:14:19] [Server thread/INFO] [Waila]: Gathering annotated plugins...
+[16:14:19] [Server thread/INFO] [Waila]: Gathering wrapped IMC plugins...
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugins...
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugin at blusunrize.immersiveengineering.common.util.compat.waila.IEWailaDataProvider
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[16:14:19] [Server thread/ERROR] [Waila]: Error registering wrapped plugin from storagedrawers at com.jaquadro.minecraft.storagedrawers.integration.Waila.registerProvider
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.capability.PluginCapability
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugin at net.darkhax.wawla.engine.waila.EntityProvider
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugin at net.darkhax.wawla.engine.waila.TileProvider
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugin at slimeknights.tconstruct.plugin.waila.WailaRegistrar
+[16:14:19] [Server thread/INFO] [Waila]: Registering plugin at team.chisel.common.integration.waila.ChiselDataHandler
+[16:14:19] [Server thread/INFO] [Waila]: Starting Waila took 77.03 ms
+[16:14:19] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 33 mods
+[16:14:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "Forge Ahead"
+[16:14:19] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[16:14:22] [Server thread/INFO] [FML]: Applying holder lookups
+[16:14:22] [Server thread/INFO] [FML]: Holder lookups applied
+[16:14:22] [Server thread/INFO] [FML]: Loading dimension 0 (Forge Ahead) (net.minecraft.server.dedicated.DedicatedServer@7ae0be7b)
+[16:14:24] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1031 advancements
+[16:14:24] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 0
+[16:14:27] [Server thread/INFO] [FML]: Loading dimension 1 (Forge Ahead) (net.minecraft.server.dedicated.DedicatedServer@7ae0be7b)
+[16:14:27] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 1
+[16:14:27] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[16:14:27] [Server thread/INFO] [FML]: Loading dimension -1 (Forge Ahead) (net.minecraft.server.dedicated.DedicatedServer@7ae0be7b)
+[16:14:27] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world -1
+[16:14:27] [Server thread/INFO] [FML]: Loading dimension 4 (Forge Ahead) (net.minecraft.server.dedicated.DedicatedServer@7ae0be7b)
+[16:14:27] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 4
+[16:14:27] [Server thread/INFO] [FML]: Loading dimension 7 (Forge Ahead) (net.minecraft.server.dedicated.DedicatedServer@7ae0be7b)
+[16:14:27] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 7
+[16:14:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[16:14:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 13%
+[16:14:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 84%
+[16:14:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 86%
+[16:14:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (11.332s)! For help, type "help" or "?"
+[16:14:31] [Server thread/INFO] [betterquesting]: Loaded 0 quests
+[16:14:31] [Server thread/INFO] [betterquesting]: Loaded 0 quest lines
+[16:14:31] [Server thread/INFO] [betterquesting]: Loaded 1 parties
+[16:14:31] [Server thread/INFO] [betterquesting]: Loaded 3 names
+[16:14:31] [Server thread/INFO] [immersiveengineering]: WorldData loading
+[16:14:31] [Server thread/INFO] [immersiveengineering]: WorldData retrieved
+[16:14:32] [Thread-17/INFO] [THAUMCRAFT]: Starting aura thread for dim 0
+[16:14:32] [Thread-18/INFO] [THAUMCRAFT]: Starting aura thread for dim 1
+[16:14:32] [Thread-19/INFO] [THAUMCRAFT]: Starting aura thread for dim -1
+[16:14:32] [Thread-20/INFO] [THAUMCRAFT]: Starting aura thread for dim 4
+[16:14:32] [Thread-21/INFO] [THAUMCRAFT]: Starting aura thread for dim 7
+[16:14:32] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 1
+[16:14:32] [Server thread/INFO] [FML]: Unloading dimension 1
+[16:14:32] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world -1
+[16:14:32] [Server thread/INFO] [FML]: Unloading dimension -1
+[16:14:32] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 4
+[16:14:32] [Server thread/INFO] [FML]: Unloading dimension 4
+[16:14:32] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 7
+[16:14:32] [Server thread/INFO] [FML]: Unloading dimension 7
+[16:14:34] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2039ms behind, skipping 40 tick(s)
+[16:14:34] [Thread-21/INFO] [THAUMCRAFT]: Stopping aura thread for dim 7
+[16:14:34] [Thread-20/INFO] [THAUMCRAFT]: Stopping aura thread for dim 4
+[16:14:34] [Thread-18/INFO] [THAUMCRAFT]: Stopping aura thread for dim 1
+[16:14:34] [Thread-19/INFO] [THAUMCRAFT]: Stopping aura thread for dim -1
+[16:15:04] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player GHProphet is 8259f658-24bb-4e6f-9ea5-ef220fe5e2af
+[16:15:04] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
+[16:15:04] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 34 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,tinkertoolleveling@1.12.2-1.1.0.DEV.b23e769,dldungeonsjbg@1.13.2,morefurnaces@1.10.5,immersiveengineering@0.12-92,biomesoplenty@7.0.1.2441,baubles@1.5.2,cxlibrary@1.6.1,jei@4.16.1.301,nei@2.4.3,wawla@2.6.275,mantle@1.12-1.3.3.55,patchouli@1.0-20,mcp@9.42,betterquesting@3.5.329,ctm@MC1.12.2-1.0.2.31,journeymap@1.12.2-5.7.1,lootbags@2.5.8.5,oreexcavation@1.4.150,storagedrawers@5.2.2,chameleon@1.12-4.1.3,FML@8.0.99.99,bookshelf@2.3.590,inventorytweaks@1.64+dev.146.2180b27,chisel@MC1.12.2-1.0.2.45,waila@1.8.26,aether_legacy@1.4.4,parry@1.0,thaumcraft@6.1.BETA26,bq_standard@3.4.173,forge@14.23.5.2854,codechickenlib@3.2.3.358,twilightforest@3.10.1013
+[16:15:04] [Netty Server IO #2/INFO] [journeymap]: CLIENT
+[16:15:06] [Netty Server IO #2/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[16:15:08] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[16:15:08] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: GHProphet[/192.168.1.14:54726] logged in with entity id 308 at (291.06233831843724, 67.0, 176.47425283963096)
+[16:15:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: GHProphet joined the game
+[16:15:08] [Server thread/INFO] [Waila]: Player EntityPlayerMP['GHProphet'/308, l='Forge Ahead', x=291.06, y=67.00, z=176.47] connected. Sending ping
+[16:15:19] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3296ms behind, skipping 65 tick(s)
+[16:15:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: GHProphet lost connection: Disconnected
+[16:15:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: GHProphet left the game
+[16:19:07] [User Authenticator #2/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player GHProphet is 8259f658-24bb-4e6f-9ea5-ef220fe5e2af
+[16:19:07] [Netty Server IO #4/INFO] [FML]: Client protocol version 2
+[16:19:07] [Netty Server IO #4/INFO] [FML]: Client attempting to join with 34 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,tinkertoolleveling@1.12.2-1.1.0.DEV.b23e769,dldungeonsjbg@1.13.2,morefurnaces@1.10.5,immersiveengineering@0.12-92,biomesoplenty@7.0.1.2441,baubles@1.5.2,cxlibrary@1.6.1,jei@4.16.1.301,nei@2.4.3,wawla@2.6.275,mantle@1.12-1.3.3.55,patchouli@1.0-20,mcp@9.42,betterquesting@3.5.329,ctm@MC1.12.2-1.0.2.31,journeymap@1.12.2-5.7.1,lootbags@2.5.8.5,oreexcavation@1.4.150,storagedrawers@5.2.2,chameleon@1.12-4.1.3,FML@8.0.99.99,bookshelf@2.3.590,inventorytweaks@1.64+dev.146.2180b27,chisel@MC1.12.2-1.0.2.45,waila@1.8.26,aether_legacy@1.4.4,parry@1.0,thaumcraft@6.1.BETA26,bq_standard@3.4.173,forge@14.23.5.2854,codechickenlib@3.2.3.358,twilightforest@3.10.1013
+[16:19:07] [Netty Server IO #4/INFO] [journeymap]: CLIENT
+[16:19:07] [Netty Server IO #4/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[16:19:10] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[16:19:10] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: GHProphet[/192.168.1.14:54751] logged in with entity id 394 at (293.23886159716136, 67.0, 176.68405322840533)
+[16:19:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: GHProphet joined the game
+[16:19:11] [Server thread/INFO] [Waila]: Player EntityPlayerMP['GHProphet'/394, l='Forge Ahead', x=293.24, y=67.00, z=176.68] connected. Sending ping
+[16:19:38] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: GHProphet lost connection: Disconnected
+[16:19:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: GHProphet left the game
+[16:20:52] [User Authenticator #3/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player GHProphet is 8259f658-24bb-4e6f-9ea5-ef220fe5e2af
+[16:20:53] [Netty Server IO #6/INFO] [FML]: Client protocol version 2
+[16:20:53] [Netty Server IO #6/INFO] [FML]: Client attempting to join with 34 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,tinkertoolleveling@1.12.2-1.1.0.DEV.b23e769,dldungeonsjbg@1.13.2,morefurnaces@1.10.5,immersiveengineering@0.12-92,biomesoplenty@7.0.1.2441,baubles@1.5.2,cxlibrary@1.6.1,jei@4.16.1.301,nei@2.4.3,wawla@2.6.275,mantle@1.12-1.3.3.55,patchouli@1.0-20,mcp@9.42,betterquesting@3.5.329,ctm@MC1.12.2-1.0.2.31,journeymap@1.12.2-5.7.1,lootbags@2.5.8.5,oreexcavation@1.4.150,storagedrawers@5.2.2,chameleon@1.12-4.1.3,FML@8.0.99.99,bookshelf@2.3.590,inventorytweaks@1.64+dev.146.2180b27,chisel@MC1.12.2-1.0.2.45,waila@1.8.26,aether_legacy@1.4.4,parry@1.0,thaumcraft@6.1.BETA26,bq_standard@3.4.173,forge@14.23.5.2854,codechickenlib@3.2.3.358,twilightforest@3.10.1013
+[16:20:53] [Netty Server IO #6/INFO] [journeymap]: CLIENT
+[16:20:53] [Netty Server IO #6/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[16:20:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[16:20:56] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: GHProphet[/192.168.1.14:54762] logged in with entity id 618 at (293.23886159716136, 67.0, 176.68405322840533)
+[16:20:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: GHProphet joined the game
+[16:20:56] [Server thread/INFO] [Waila]: Player EntityPlayerMP['GHProphet'/618, l='Forge Ahead', x=293.24, y=67.00, z=176.68] connected. Sending ping
+[16:21:52] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: GHProphet lost connection: Disconnected
+[16:21:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: GHProphet left the game
+[16:24:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[16:24:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:24:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[16:24:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[16:24:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Forge Ahead'/overworld
+[16:24:56] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 0
+[16:24:57] [Thread-17/WARN] [THAUMCRAFT]: No auras found!
+[16:24:57] [Thread-17/INFO] [THAUMCRAFT]: Stopping aura thread for dim 0
+[16:24:57] [Server thread/INFO] [FML]: Unloading dimension 0
+[16:24:57] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:24:57] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
