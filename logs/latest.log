@@ -544,3 +544,26 @@ Mutation:
 [05:42:56] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [05:42:56] [Server thread/WARN] [FML]: Thaumcraft loaded a new chunk [33, -4] in dimension 0 (overworld) while populating chunk [34, -4], causing cascading worldgen lag.
 [05:42:56] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[05:50:50] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[05:50:50] [Server thread/INFO] [FML]: Loading dimension -1 (Forge Ahead) (net.minecraft.server.dedicated.DedicatedServer@1fae266b)
+[05:50:50] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world -1
+[05:50:51] [Thread-19/INFO] [THAUMCRAFT]: Starting aura thread for dim -1
+[05:53:10] [Server thread/WARN] [net.minecraft.entity.EntityTrackerEntry]: Fetching addPacket for removed entity
+[05:59:22] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world -1
+[05:59:22] [Server thread/INFO] [FML]: Unloading dimension -1
+[05:59:23] [Thread-19/INFO] [THAUMCRAFT]: Stopping aura thread for dim -1
+[05:59:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: GHProphet lost connection: Disconnected
+[05:59:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: GHProphet left the game
+[06:02:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: theetails lost connection: Disconnected
+[06:02:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: theetails left the game
+[06:03:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[06:03:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[06:03:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: CaptCrit lost connection: Server closed
+[06:03:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: CaptCrit left the game
+[06:03:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[06:03:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Forge Ahead'/overworld
+[06:03:09] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 0
+[06:03:09] [Server thread/INFO] [FML]: Unloading dimension 0
+[06:03:09] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[06:03:09] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[06:03:09] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

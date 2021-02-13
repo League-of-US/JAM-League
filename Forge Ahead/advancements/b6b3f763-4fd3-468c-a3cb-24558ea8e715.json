@@ -376,6 +376,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2021-02-13 06:02:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2020-12-31 02:13:00 +0000"
@@ -869,11 +875,13 @@
     "criteria": {
       "zombie_pigman": "2020-12-31 06:51:28 +0000",
       "zombie_villager": "2020-12-31 05:51:55 +0000",
+      "slime": "2021-02-13 05:57:49 +0000",
       "skeleton": "2020-12-31 03:05:31 +0000",
       "zombie": "2020-12-31 02:34:06 +0000",
       "witch": "2020-12-31 01:53:56 +0000",
       "spider": "2020-12-31 05:47:47 +0000",
-      "creeper": "2020-12-31 02:33:02 +0000"
+      "creeper": "2020-12-31 02:33:02 +0000",
+      "enderman": "2021-02-13 05:45:19 +0000"
     },
     "done": false
   },
