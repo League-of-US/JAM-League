@@ -35,6 +35,20 @@
         "XXXXX",
         "XXXXX"
       ]
+    },
+	{
+      "name": "7x7",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX",
+		"XXXXXXX",
+        "XXXXXXX",
+        "XXXXXXX"
+      ]
     }
   ]
 }
