@@ -156,31 +156,6 @@ check_dir(){
 	fi
 }
 
-# routine for ping inet connectivity
-check_connection(){
-	if [ ${IGNORE_OFFLINE} -eq 1 ]; then
-		echo "WARN: Internet connectivity checking is disabled" >>serverstart.log 2>&1
-		echo "Skipping internet connectivity check"
-	else
-		if ping -c 2 8.8.8.8 >> /dev/null 2>&1; then
-			echo "INFO: Ping to Google DNS successfull" >>serverstart.log 2>&1
-			echo "Ping to Google DNS successfull"
-		else
-			echo "ERROR: Ping to Google DNS failed. No internet access?" >>serverstart.log 2>&1
-			echo "Ping to Google DNS failed. No internet access?"
-		fi
-
-		if ping -c 2 4.2.2.1 >> /dev/null 2>&1; then
-			echo "INFO: Ping to L4 successfull" >>serverstart.log 2>&1
-			echo "Ping to L4 successfull"
-		else
-			echo "ERROR: Ping to L4 failed. No internet access?"  >>serverstart.log 2>&1
-			echo "Ping to L4 failed. No internet access?"
-			exit 0
-		fi
-	fi
-}
-
 # routine to make sure necessary binaries are found
 check_binaries(){
 	if [ ! -f ${FORGE_JAR} ] ; then
@@ -263,7 +238,6 @@ if [[ "$answer" =~ ^([yY][eE][sS]|[yY])+$ ]]; then
 fi
 
 check_dir
-check_connection
 check_binaries
 eula
 
@@ -301,7 +275,6 @@ while true ; do
 
 	#re-validate stuff each server restart
 	check_dir
-	check_connection
 	check_binaries
 	eula
 	echo "INFO: Server-auto-restart commencing"  >>serverstart.log 2>&1
