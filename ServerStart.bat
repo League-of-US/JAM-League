@@ -426,36 +426,6 @@ IF NOT %MC_SERVER_IGNORE_OFFLINE% EQU 0 (
 ECHO Checking for basic internet connectivity...
 ECHO INFO: Checking for basic internet connectivity... 1>>  "%~dp0logs\serverstart.log" 2>&1
 
-REM Try with Google DNS
-%MC_SYS32%\PING.EXE -n 2 -w 1000 8.8.8.8 | %MC_SYS32%\FIND.EXE "time="  1>>  "%~dp0logs\serverstart.log" 2>&1
-IF %ERRORLEVEL% EQU 0 (
-    SET MC_SERVER_TMP_FLAG=0
-	ECHO INFO: Ping of "8.8.8.8" Successfull 1>>  "%~dp0logs\serverstart.log" 2>&1
-) ELSE (
-    SET MC_SERVER_TMP_FLAG=1
-	ECHO WARN: Ping of "8.8.8.8" Failed 1>>  "%~dp0logs\serverstart.log" 2>&1
-)
-
-REM If Google ping failed try one more time with L3 just in case
-IF MC_SERVER_TMP_FLAG EQU 1 (
-	%MC_SYS32%\PING.EXE -n 2 -w 1000 4.2.2.1 | %MC_SYS32%\FIND.EXE "time="  1>>  "%~dp0logs\serverstart.log" 2>&1
-	IF %ERRORLEVEL% EQU 0 (
-		SET MC_SERVER_TMP_FLAG=0
-		INFO: Ping of "4.4.2.1" Successfull 1>>  "%~dp0logs\serverstart.log" 2>&1
-	) ELSE (
-		SET MC_SERVER_TMP_FLAG=1
-		ECHO WARN: Ping of "4.4.2.1" Failed 1>>  "%~dp0logs\serverstart.log" 2>&1
-	)
-)
-
-REM Possibly no internet connection...
-IF MC_SERVER_TMP_FLAG EQU 1 (
-	ECHO ERROR: No internet connectivity found
-	ECHO ERROR: No internet connectivity found 1>>  "%~dp0logs\serverstart.log" 2>&1
-	SET MC_SERVER_ERROR_REASON=NoInternetConnectivity
-	GOTO ERROR
-	)
-
 :CHECKFILES
 ECHO Checking for forge/minecraft binaries...
 ECHO INFO: Checking for forge/minecraft binaries... 1>>  "%~dp0logs\serverstart.log" 2>&1
